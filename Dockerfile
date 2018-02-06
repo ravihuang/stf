@@ -59,7 +59,8 @@ RUN set -x && \
     npm cache clean && \
     rm -rf ~/.node-gyp && \
     cd /app && \
-    rm -rf /tmp/*
+    rm -rf /tmp/* && \
+    cp /app/res/build/a35720c2fed2c7f043bc7e4ffb45e073.woff /app/res/build/96978e6fcc6395ca44894139e0baa0b2.woff
 
 # Switch to the app user.
 #USER stf

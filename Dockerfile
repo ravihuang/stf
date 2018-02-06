@@ -62,7 +62,8 @@ RUN set -x && \
     rm -rf /tmp/*
 
 # Switch to the app user.
-USER stf
+#USER stf
+USER root
 
 # Show help by default.
 CMD stf --help
